@@ -5,6 +5,7 @@ import FontSize from "./components/FontSize";
 import Heading from "./components/Heading";
 import TextColor from "./components/TextColor";
 import Loaded from "./components/Loaded";
+import Password from "./components/Password";
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <FontSize /> */}
       {/* <Heading /> */}
       {/* <TextColor /> */}
-      <Loaded />
+      {/* <Loaded /> */}
+      <Password />
     </div>
   );
 }
